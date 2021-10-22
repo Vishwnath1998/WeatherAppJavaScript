@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0251b6a817.js" crossorigin="anonymous"></script>
+</head>
+<style>
+
+
+</style>
+
+<body>
+    <div class="wather_app">
+        <div class="box">
+            <div class="wave  -one"></div>
+            <div class="wave -two"></div>
+            <div class="wave -three"></div>
+            <div class="wather_icon">
+                <form class="input_group" onsubmit="getWeatherInformation(event)">
+                    <input type="text"  placeholder="search by City" required/>
+                    <button class="search" type="submit"> <i class="fas fa-search-location"></i></button>
+
+                </form> 
+
+            </div>
+            <div class="information">
+                <div class="weather_info">
+                    <h2 class="city"><i class="fa fa-street-view" aria-hidden="true"></i></h2>
+                    <p id="date">WED | SEP 20 | 10:50AM</p>
+                    <h1 class="temp"> 59&deg; </h1>
+                </div>
+
+                <div class="atmosphere">
+                    <i class="fas fa-sun"></i>
+                </div>
+            </div>
+            <div class="info">
+                <div class="info_one">
+                    <p class="wind">wind :<small>2.43m/s</small></p>
+                    <p class="humadity">humadity :<small >50%</small></p>
+                    <p class="pressure"> pressure :<small>1013hpa</small></p>
+                    <p class="min">min :<small>25.5.&deg;</small></p>
+                </div>
+                <div class="info_two">
+                    <p class="winddir">wind_Dir:<small>180&deg;</small></p>
+                    <p class="visibility">visibility:<small>1000mtrs</small></p>
+                    <p class="cloud">cloud:<small> 6%</small></p>
+                    <p class="max">max:<small>30&deg;</small></p>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src='./app.js'></script>
+
+
+
+</body>
+
+</html>
